@@ -8,6 +8,7 @@
 body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
+    background-color: #243030;
 }
 
 .navbar-brand img {
@@ -16,8 +17,6 @@ body {
 
 .coloured {
     padding: 10vh 4vw;
-    background-color: #243030;
-    height: 100vh;
 }
 
 .about,
@@ -67,7 +66,29 @@ body {
     text-decoration: none;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #fff;
+}
+
+
+/* Mobile Section */
+
+
+@media (max-width: 426px) {
+    .coloured {
+        padding: 5vh 4vw;
+        height: 100vh;
+    }
+
+    .about h1 {
+        font-weight: 900;
+        font-size: 32px;
+    }
+
+    .about p {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
 }

@@ -9,7 +9,6 @@ body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     background-color: #243030;
-    height: 90vh;
 }
 
 /***** NavBar *****/
@@ -21,11 +20,10 @@ body {
 .coloured {
     padding: 15vh 4vw 0vh;
     background-color: #243030;
-    height: 100vh;
 }
 
 .mainContent {
-    margin: 0% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
     color: #fff;
     text-align: left;
 }
