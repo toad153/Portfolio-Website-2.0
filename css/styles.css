@@ -62,7 +62,7 @@ body {
     text-decoration: none;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #fff;
 }
@@ -90,7 +90,8 @@ body {
     padding: 3%;
 }
 
-.fa-brands ,.fa-solid {
+.fa-brands,
+.fa-solid {
     text-align: left;
     font-size: 28px;
     color: #5ce1e6;
@@ -98,20 +99,29 @@ body {
     /* margin: 5px; */
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
     color: #0cc0df;
 }
 
+@media (max-width: 768px) {
+    .graphicImg {
+        text-align: right;
+        margin: 20% auto 0%;
+        width: 90%;
+    }
+}
+
+
 @media (max-width: 426px) {
-    .coloured{
+    .coloured {
         padding: 5vh 4vw;
         height: 100vw;
         text-align: justify;
     }
 
-    .graphicImg{
+    .graphicImg {
         text-align: right;
         margin: 25% auto 0%;
         width: 80%;
     }
-  }
+}
